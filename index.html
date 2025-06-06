@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Devicon for tech logos -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#certifications">Certifications</a></li>
+
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    <li class="nav-item d-flex align-items-center ms-2">
+                        <button id="modeToggle" class="btn btn-outline-light btn-sm" title="Toggle dark/light mode" style="border-radius:50%;width:38px;height:38px;display:flex;align-items:center;justify-content:center;">
+                            <i id="modeIcon" class="fas fa-moon"></i>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="hero-section d-flex align-items-center justify-content-center">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center justify-content-center">
+                <div class="col-12 text-center">
+                    <img src="photos/sabar.jpg" alt="User Photo" class="hero-photo mb-4">
+                    <h1 class="display-4 text-white">Sabarna T</h1>
+                    <p class="lead text-white">Student | Developer | Learner</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">About Me</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <p class="lead text-center">Hello! I'm a passionate student and developer with a keen interest in technology and innovation. I love solving complex problems and creating meaningful solutions. My journey in technology has been exciting and I'm constantly learning new things.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Education</h2>
+            <div class="education-track mx-auto">
+                <div class="edu-step">
+                    <div class="edu-dot"></div>
+                    <div class="edu-content">
+                        <h5>10th Standard</h5>
+                        <p>Cheran Matriculation Higher Secondary School</p>
+                        <span class="edu-year">2020</span>
+                        <span class="edu-score">Score: 86.8%</span>
+                    </div>
+                </div>
+                <div class="edu-step">
+                    <div class="edu-dot"></div>
+                    <div class="edu-content">
+                        <h5>12th Standard</h5>
+                        <p>Cheran Matriculation Higher Secondary School, Board</p>
+                        <span class="edu-year">2022</span>
+                        <span class="edu-score">Score: 90%</span>
+                    </div>
+                </div>
+                <div class="edu-step">
+                    <div class="edu-dot"></div>
+                    <div class="edu-content">
+                        <h5>UG - B.Tech Information Technology</h5>
+                        <p>M Kumarasamy College of Engineering</p>
+                        <span class="edu-year">2022 - 2026</span>
+                        <span class="edu-score">CGPA: 8.5 </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">My Tech Universe</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="skills-category mb-4">
+                        <h4 class="mb-3">Languages</h4>
+                        <div class="skills-grid">
+                            <div class="skill-logo" title="C"><i class="devicon-c-plain colored"></i><span>C</span></div>
+                            <div class="skill-logo" title="Java"><i class="devicon-java-plain colored"></i><span>Java</span></div>
+                            <div class="skill-logo" title="Python"><i class="devicon-python-plain colored"></i><span>Python</span></div>
+                            <div class="skill-logo" title="HTML CSS"><i class="devicon-html5-plain colored"></i><span>HTML</span></div>
+                            <div class="skill-logo" title="HTML CSS"><i class="devicon-css3-plain colored"></i><span>CSS</span></div>
+                            <div class="skill-logo" title="JavaScript"><i class="devicon-javascript-plain colored"></i><span>JavaScript</span></div>
+                        </div>
+                    </div>
+                    <div class="skills-category mb-4">
+                        <h4 class="mb-3">Frameworks and Libraries</h4>
+                        <div class="skills-grid">
+                            <div class="skill-logo" title="Bootstrap"><i class="devicon-bootstrap-plain colored"></i><span>Bootstrap v5.0</span></div>
+                        </div>
+                    </div>
+                    <div class="skills-category mb-4">
+                        <h4 class="mb-3">Databases</h4>
+                        <div class="skills-grid">
+                            <div class="skill-logo" title="SQL"><i class="devicon-mysql-plain colored"></i><span>SQL</span></div>
+                            <div class="skill-logo" title="XAMPP"><i class="fa fa-server"></i><span>XAMPP</span></div>
+                        </div>
+                    </div>
+                    <div class="skills-category mb-4">
+                        <h4 class="mb-3">Spreadsheet program</h4>
+                        <div class="skills-grid">
+                            <div class="skill-logo" title="Excel"><i class="fa fa-file-excel"></i><span>Excel</span></div>
+                        </div>
+                    </div>
+                    <div class="skills-category mb-4">
+                        <h4 class="mb-3">Tools</h4>
+                        <div class="skills-grid">
+                            <div class="skill-logo" title="AIML"><i class="fa fa-robot"></i><span>AIML</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Projects</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-5 mb-4">
+                    <div class="card project-card h-100 animate-project">
+                        <div class="project-img-wrapper">
+                            <img src="photos/farmer.png" class="card-img-top project-img" alt="Project 1">
+                            <a href="https://github.com/sabarnashinchu/Online-local-farmer-market" target="_blank" class="project-github-link"><i class="fab fa-github"></i></a>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Online local farmer market</h5>
+                            <p class="card-text">About
+                                The Online Local Farmer's Market revolutionizes agriculture by facilitating Livestock Sale, Vegetable Selling, Crew Booking, and Vehicle Renting. Bridging farmers and consumers, it boosts efficiency, fosters collaboration, and addresses transportation needs, promoting transparency and community in local farming.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5 mb-4">
+                    <div class="card project-card h-100 animate-project">
+                        <div class="project-img-wrapper">
+                            <img src="photos/zebra.png" class="card-img-top project-img" alt="Project 2">
+                            <a href="https://github.com/sabarnashinchu/traffic_monitor" target="_blank" class="project-github-link"><i class="fab fa-github"></i></a>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Zebra Sense-The Future of Pedestrian Safety</h5>
+                            <p class="card-text">Zebra Sense" enhances pedestrian safety at crossings by using smart traffic lights that detect and stop vehicles when children or the elderly cross, and display current weather conditions. It prioritizes emergency vehicles like ambulances by dynamically adjusting traffic signals, creating a safer and more responsive urban environment.</p>
+                        </div>
+                    </div>
+                </div>
+                        <div class="col-md-5 mb-4">
+                            <div class="card project-card h-100 animate-project">
+                                <div class="project-img-wrapper">
+                                    <img src="photos/AWS.png" class="card-img-top project-img" alt="Project 1">
+                                    <a href="https://github.com/sabarnashinchu/AWS" target="_blank" class="project-github-link"><i class="fab fa-github"></i></a>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">AWS</h5>
+                                    <p class="card-text">Cloud Partitioner
+                                        An Amazon Web Services (AWS) cloud practitioner is a tech professional who is responsible for managing a business's cloud infrastructure</p>
+                                </div>
+                            </div>
+                        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Certifications</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-4 mb-4">
+                    <div class="card cert-card h-100">
+                        <div class="cert-img-wrapper">
+                            <img src="photos/AWSCER.png" class="card-img-top cert-img" alt="Certificate 1">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">AWS Certified Cloud Partitioner </h5>
+                            <p class="card-text">Issuing Organization:AWS</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card cert-card h-100">
+                        <div class="cert-img-wrapper">
+                            <img src="photos/Java1.png" class="card-img-top cert-img" alt="Certificate 1">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Java Programming: A Comprehensive Bootcamp from Zero to Hero – </h5>
+                            <p class="card-text">Issuing Organization:Udemy</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card cert-card h-100">
+                        <div class="cert-img-wrapper">
+                            <img src="photos/step.png" class="card-img-top cert-img" alt="Certificate 1">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">STEP Plus Test </h5>
+                            <p class="card-text">Issuing Organization:The Hindu Group</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card cert-card h-100">
+                        <div class="cert-img-wrapper">
+                                <img src="photos/javascript.png" class="card-img-top cert-img" alt="Certificate 1">
+                            </a>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">JavaScript Essentials 1</h5>
+                            <p class="card-text">Issuing Organization: Cisco Networking Academy</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card cert-card h-100">
+                        <div class="cert-img-wrapper">
+                            <img src="photos/IOT.png" class="card-img-top cert-img" alt="Certificate 1">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Introduction to Industry 4.0 and IoT</h5>
+                            <p class="card-text">Issuing Organization:IIT Kharagpur</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card cert-card h-100">
+                        <div class="cert-img-wrapper">
+                            <img src="photos/stack.png" class="card-img-top cert-img" alt="Certificate 1">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">PHP and MYSQL</h5>
+                            <p class="card-text">Issuing Organization:Stack and Queue</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add more certification cards as needed -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Contact Me</h2>
+            <div class="row">
+                <div class="col-md-6 mx-auto">
+                    <form action="https://formspree.io/f/xqabeadv" method="POST">
+                        <div class="mb-3">
+                            <label class="form-label">Your email:</label>
+                            <input type="email" name="email" class="form-control" required>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Your message:</label>
+                            <textarea name="message" class="form-control" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Links -->
+    <footer class="py-4 bg-dark text-white">
+        <div class="container text-center">
+            <div class="social-links mb-3">
+                <a href="https://www.linkedin.com/in/sabarna-t-3b668225a/" class="text-white mx-2"><i class="fab fa-linkedin fa-2x"></i></a>
+                <a href="https://x.com/SabarnaT54748" class="text-white mx-2"><i class="fab fa-twitter fa-2x"></i></a>
+                <a href="https://github.com/sabarnashinchu/sabarnashinchu" class="text-white mx-2"><i class="fab fa-github fa-2x"></i></a>
+                <a href="https://www.hackerrank.com/profile/sabarnashinchu" class="text-white mx-2"><i class="fab fa-hackerrank fa-2x"></i></a>
+                <a href="https://leetcode.com/u/Sabarna15/" class="text-white mx-2" target="_blank" title="LeetCode">
+                    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/leetcode.svg" alt="LeetCode" style="height:32px;vertical-align:middle;">
+                  </a></i></a>
+            </div>
+            <p class="mb-0">&copy; 2024 Your Name. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html> 
